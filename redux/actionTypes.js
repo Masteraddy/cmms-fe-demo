@@ -1,0 +1,148 @@
+// redux/actionTypes.js
+export const URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3030";
+
+// AUTHENTICATION APIS ACTIONS
+export const API = "API";
+export const AUTHENTICATE = "AUTHENTICATE";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const USER_ID = "USER_ID";
+export const USER_ERROR = "USER_ERROR";
+export const DEAUTHENTICATE = "DEAUTHENTICATE";
+export const TITLE = "TITLE";
+export const REGISTER = "REGISTER";
+export const USERINFO = "USERINFO";
+export const USERSINFO = "USERSINFO";
+export const NIGHTMODE = "NIGHTMODE";
+export const EDITUSERINFO = "EDITUSERINFO";
+
+// REQUEST APIS ACTIONS
+export const GET_REQUESTS = "GET_REQUESTS";
+export const CHANGE_REQUEST_STATUS = "CHANGE_REQUEST_STATUS";
+export const DELETE_REQUEST = "DELETE_REQUEST";
+export const GET_REQUEST = "GET_REQUEST";
+export const ADD_REQUEST = "ADD_REQUEST";
+export const REQUEST_ERR = "REQUEST_ERR";
+export const GET_OUTREQUEST = "GET_OUTREQUEST";
+export const GET_OUTREQUESTS = "GET_OUTREQUESTS";
+export const OUTREQUEST_ERR = "OUTREQUEST_ERR";
+
+// SERVICE APIS ACTIONS
+export const GET_SERVICE = "GET_SERVICE";
+export const GET_SERVICES = "GET_SERVICES";
+export const ADD_SERVICE = "ADD_SERVICE";
+export const EDIT_SERVICE = "EDIT_SERVICE";
+export const DELETE_SERVICE = "DELETE_SERVICE";
+export const SERVICE_ERR = "SERVICE_ERR";
+
+// LOCATION APIS ACTIONS
+export const GET_LOCATION = "GET_LOCATION";
+export const GET_LOCATIONS = "GET_LOCATIONS";
+export const ADD_LOCATION = "ADD_LOCATION";
+export const EDIT_LOCATION = "EDIT_LOCATION";
+export const DELETE_LOCATION = "DELETE_LOCATION";
+export const LOCATION_ERR = "LOCATION_ERR";
+
+// PROPERTY APIS ACTIONS
+export const GET_PROPERTY = "GET_PROPERTY";
+export const GET_PROPERTYS = "GET_PROPERTYS";
+export const GET_PROPERTIES = "GET_PROPERTIES";
+export const ADD_PROPERTY = "ADD_PROPERTY";
+export const EDIT_PROPERTY = "EDIT_PROPERTY";
+export const DELETE_PROPERTY = "DELETE_PROPERTY";
+export const PROPERTY_ERR = "PROPERTY_ERR";
+
+// UX ACTIONS
+export const BTNLOADING = "BTNLOADING";
+export const LOCATIONOC = "LOCATIONOC";
+export const PROPERTYOC = "PROPERTYOC";
+export const REQUESTOC = "REQUESTOC";
+export const SERVICEOC = "SERVICEOC";
+export const USEROC = "USEROC";
+export const LOCATIONOC2 = "LOCATIONOC2";
+export const PROPERTYOC2 = "PROPERTYOC2";
+export const REQUESTOC2 = "REQUESTOC2";
+export const REQUESTOC3 = "REQUESTOC3";
+export const REQUESTOC4 = "REQUESTOC4";
+export const SERVICEOC2 = "SERVICEOC2";
+export const USEROC2 = "USEROC2";
+export const REQUESTOC22 = "REQUESTOC22";
+export const REQUESTOC33 = "REQUESTOC33";
+export const REQUESTOC44 = "REQUESTOC44";
+
+// EQUIPMENT APIS ACTIONS
+export const GET_EQUIPMENT = "GET_EQUIPMENT";
+export const GET_EQUIPMENTS = "GET_EQUIPMENTS";
+export const ADD_EQUIPMENT = "ADD_EQUIPMENT";
+export const EDIT_EQUIPMENT = "EDIT_EQUIPMENT";
+export const DELETE_EQUIPMENT = "DELETE_EQUIPMENT";
+export const EQUIPMENT_ERR = "EQUIPMENT_ERR";
+
+// INVENTORY APIS ACTIONS
+export const GET_INVENTORY = "GET_INVENTORY";
+export const GET_INVENTORYS = "GET_INVENTORYS";
+export const ADD_INVENTORY = "ADD_INVENTORY";
+export const EDIT_INVENTORY = "EDIT_INVENTORY";
+export const DELETE_INVENTORY = "DELETE_INVENTORY";
+export const INVENTORY_ERR = "INVENTORY_ERR";
+
+// INSPECTION APIS ACTIONS
+export const GET_INSPECTION = "GET_INSPECTION";
+export const GET_INSPECTIONS = "GET_INSPECTIONS";
+export const ADD_INSPECTION = "ADD_INSPECTION";
+export const DELETE_INSPECTION = "DELETE_INSPECTION";
+export const CHANGE_INSPECTION_STATUS = "CHANGE_INSPECTION_STATUS";
+export const INSPECTION_ERR = "INSPECTION_ERR";
+
+// CS APIS ACTIONS
+export const GET_CS = "GET_CS";
+export const GET_CSS = "GET_CSS";
+export const ADD_CS = "ADD_CS";
+export const DELETE_CS = "DELETE_CS";
+export const CS_ERR = "CS_ERR";
+
+// ASSET APIS ACTIONS
+export const GET_ASSET = "GET_ASSET";
+export const GET_ASSETS = "GET_ASSETS";
+export const ADD_ASSET = "ADD_ASSET";
+export const EDIT_ASSET = "EDIT_ASSET";
+export const DELETE_ASSET = "DELETE_ASSET";
+export const ASSET_ERR = "ASSET_ERR";
+
+// PPM APIS ACTIONS
+export const GET_PPM = "GET_PPM";
+export const GET_PPMS = "GET_PPMS";
+export const ADD_PPM = "ADD_PPM";
+export const DELETE_PPM = "DELETE_PPM";
+export const PPM_ERR = "PPM_ERR";
+
+// FILTER APIS ACTIONS
+export const GET_FILTER = "GET_FILTER";
+export const GET_FILTERS = "GET_FILTERS";
+export const ADD_FILTER = "ADD_FILTER";
+export const EDIT_FILTER = "EDIT_FILTER";
+export const DELETE_FILTER = "DELETE_FILTER";
+export const FILTER_ERR = "FILTER_ERR";
+
+// REGION_INFO APIS ACTIONS
+export const GET_REGION_INFO = "GET_REGION_INFO";
+export const GET_REGION_INFOS = "GET_REGION_INFOS";
+export const ADD_REGION_INFO = "ADD_REGION_INFO";
+export const EDIT_REGION_INFO = "EDIT_REGION_INFO";
+export const DELETE_REGION_INFO = "DELETE_REGION_INFO";
+export const REGION_INFO_ERR = "REGION_INFO_ERR";
+
+// SITE_INFO APIS ACTIONS
+export const GET_SITE_INFO = "GET_SITE_INFO";
+export const GET_SITE_INFOS = "GET_SITE_INFOS";
+export const ADD_SITE_INFO = "ADD_SITE_INFO";
+export const EDIT_SITE_INFO = "EDIT_SITE_INFO";
+export const DELETE_SITE_INFO = "DELETE_SITE_INFO";
+export const SITE_INFO_ERR = "SITE_INFO_ERR";
+
+// IHS_DATA APIS ACTIONS
+export const GET_IHS_DATA = "GET_IHS_DATA";
+export const GET_IHS_DATAS = "GET_IHS_DATAS";
+export const ADD_IHS_DATA = "ADD_IHS_DATA";
+export const EDIT_IHS_DATA = "EDIT_IHS_DATA";
+export const DELETE_IHS_DATA = "DELETE_IHS_DATA";
+export const IHS_DATA_ERR = "IHS_DATA_ERR";
